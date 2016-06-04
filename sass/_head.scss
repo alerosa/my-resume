@@ -1,0 +1,33 @@
+.head {
+  font-size: 1rem;
+  overflow: auto;
+
+  &__titles {
+    float: right;
+    line-height: 1.2;
+  }
+
+  &__title {
+    margin: 0;
+    color: $primary-color;
+    font-size: 3.25em;
+    font-weight: 300;
+  }
+
+  &__subtitle {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.625em;
+    text-align: right;
+    color: $title-color;
+  }
+
+  &__contacts {
+    float: left;
+    font-size: 0.875em;
+    list-style: none;
+    padding: 0;
+    line-height: 1.5;
+    margin-top: 0.5em;
+  }
+}

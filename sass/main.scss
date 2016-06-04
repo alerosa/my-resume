@@ -1,0 +1,17 @@
+// Vars
+$primary-color: #dd5f70;
+$title-color: #333;
+$text-color: #666;
+$white: #fff;
+
+// Vendors
+@import 'normalize.scss';
+
+@import './inline-list';
+@import './defs';
+@import './globals';
+@import './layout';
+@import './head';
+@import './intro';
+@import './section';
+@import './entry';

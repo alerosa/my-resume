@@ -1,0 +1,23 @@
+{
+  "name": "my-resume",
+  "version": "1.0.0",
+  "author": "Alessandro Rosa <fluxdot@gmail.com>",
+  "description": "My Personal Resume",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "dependencies": {
+    "normalize.scss": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-html-pdf": "^0.3.0",
+    "gulp-inline-css": "^3.1.0",
+    "gulp-sass": "^2.3.1"
+  }
+}

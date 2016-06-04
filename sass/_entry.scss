@@ -1,0 +1,32 @@
+.entry {
+  font-size: 1rem;
+  margin-bottom: 1.25em;
+
+  &__details {
+    padding-bottom: 1em;
+    overflow: auto;
+    zoom: 1;
+  }
+
+  &__title {
+    float: left;
+    margin: 0;
+    font-weight: 700;
+    font-size: 1em;
+    color: $title-color;
+  }
+
+  &__position {
+    color: $primary-color;
+    font-weight: 400;
+  }
+
+  &__period {
+    font-size: 0.875em;
+    float: right;
+  }
+
+  &__desc {
+    clear: both;
+  }
+}

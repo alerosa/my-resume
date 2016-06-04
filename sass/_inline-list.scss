@@ -1,0 +1,24 @@
+.inline-list {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+
+  li {
+    display: inline;
+
+    &:after {
+      content: '•';
+      display: inline-block;
+      padding: 0 4px 0 6px;
+      font-size: 1.25em;
+      line-height: 1;
+      vertical-align: middle;
+    }
+
+    &:last-child {
+      &:after {
+        content: none;
+      }
+    }
+  }
+}
