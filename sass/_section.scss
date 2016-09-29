@@ -10,17 +10,16 @@
     font-weight: bold;
     border-bottom: 1px solid #ddd;
     color: $title-color;
+  }
 
-    &:before {
-      content: '';
-      display: inline-block;
-      position: relative;
-      height: 0.75em;
-      width: 0.75em;
-      margin-right: 0.5em;
-      border-radius: 50%;
-      background-color: $primary-color;
-    }
+  &__bulletpoint {
+    display: inline-block;
+    position: relative;
+    height: 0.75em;
+    width: 0.75em;
+    margin-right: 0.5em;
+    border-radius: 50%;
+    background-color: $primary-color;
   }
 
   &__content {
